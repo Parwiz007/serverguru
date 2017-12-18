@@ -1,0 +1,23 @@
+<table class="table table-bordered">
+    <tbody>
+        <tr>
+            <td>ID</td>
+            <td>Public IP</td>
+            <td>Private IP</td>
+            <td>Server Name</td>
+            <td>Notes/Tags</td>
+        </tr>
+        <tr>
+            <td>{{result.0.id}}</td>
+            <td>{{result.0.value}}</td>
+            <td>{{result.PrivIP}}</td>
+            <td>{{result.0.name}}</td>
+            <td>{{result.0.tags}}</td>
+        </tr>
+        <tr>
+            {{#each result.picture}} {{#if this.filename}} {{this.filename}} {{/if}} {{/each}}
+        </tr>
+    </tbody>
+
+
+</table>

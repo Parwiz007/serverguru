@@ -1,0 +1,37 @@
+{
+  "name": "serverguru",
+  "version": "1.0.0",
+  "description": "<h1>ServerGuru</h1>",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rcintron1/serverguru.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rcintron1/serverguru/issues"
+  },
+  "homepage": "https://github.com/rcintron1/serverguru#readme",
+  "dependencies": {
+    "aws-sdk": "^2.157.0",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "chai": "^4.1.2",
+    "cloudflare4": "^0.2.5",
+    "cron": "^1.3.0",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "mocha": "^4.0.1",
+    "mysql": "^2.15.0",
+    "mysql2": "^1.5.1",
+    "nightmare": "^2.10.0",
+    "nodemon": "^1.12.5",
+    "sequelize": "^4.22.11",
+    "vo": "^4.0.2"
+  }
+}
